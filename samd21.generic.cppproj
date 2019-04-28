@@ -217,6 +217,12 @@
     <Compile Include="core\device_startup\startup_samd21.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="core\drivers\adc.cpp">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="core\drivers\adc.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="core\multitask\multitask.cpp">
       <SubType>compile</SubType>
     </Compile>
